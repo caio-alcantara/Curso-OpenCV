@@ -16,8 +16,8 @@ median = cv.medianBlur(img, 3)
 cv.imshow("Median", median)
 
 # Bileteral blue
-bileteral = cv.bilateralFilter(img, 5, 15, 15)
-cv.imshow("Bileteral", bileteral)
+bilateral = cv.bilateralFilter(img, 5, 15, 15)
+cv.imshow("Bilateral", bilateral)
 
 cv.waitKey(0)
 
